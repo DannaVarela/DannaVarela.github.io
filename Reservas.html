@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Index.css">
+    <title>Reservaciones</title>
+</head>
+<body class="res">
+    <!---Contáctenos: Contiene un formulario de los datos requeridos del usuario por la
+    empresa para su respectivo relacionamiento – (Cada uno de los campos debe estar
+    validado y deben ser obligatorios de su diligenciamiento:
+     Nombres y Apellidos
+     Correo Electrónico
+     Fecha de Nacimiento
+     Número Telefónico
+     Genero
+     Sugerencias
+     Selección de Horario Disponible: Mañana – Tarde – Noche – Fin de Semana
+     Botones de Enviar y Limpiar
+     Ubicación: Contiene la información de la Ubicación, teléfonos, horarios y
+    mapas georreferenciación de la entidad.--->
+    <div id="navegador">
+        <ul>
+            <li><img src="https://restaurante.guide/wp-content/uploads/2019/09/Halong-Vietnamita-logo.jpg" width="200" height="90"></li>    
+        <li><a href="file:///C:/Users/USUARIO/OneDrive/Escritorio/HTML%20%232449466/Proyecto%20Final/Index.html">Pagina Principal</a></li>
+        <li><a href="file:///C:/Users/USUARIO/OneDrive/Escritorio/HTML%20%232449466/Proyecto%20Final/Productos.html">Servicios</a></li>
+        <li><a href="#">Un poco de nosotros</a></li>
+        <li><a href="file:///C:/Users/USUARIO/OneDrive/Escritorio/HTML%20%232449466/Proyecto%20Final/Reservas.html">Reservaciones</a></li>
+        </ul><br><br>
+    </div>
+    <center></center><form>
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <label>Nombres y Apellidos </label>
+            <input type="text" id="nomape" name="nomape" required placeholder="Digite su nombre y apellidos" minlength="10" maxlength="30"><br>
+            <label>Correo Electrónico </label>
+            <input type="email" id="email" name="email" required placeholder="email@email.com"><br>
+            <label>Fecha de Nacimiento</label>
+            <input type="date" id="fenac" name="fenac" step="1" min="1900-01-01" max="2022-06-30" required><br>
+            <label>Número Telefónico</label>
+            <input type="number" id="num" name="num" required placeholder="Digite su número telefónico"><br>
+            <label>Genero</label>
+            <select id="elec" name="elec" required>
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+                <option value="Pnd">Prefiero no decirlo</option>
+            </select><br>
+            <label>Horario Disponible</label>
+            <input type="radio" id="mañana" name="disponible" value="mañana">Mañana
+            <input type="radio" id="tarde" name="disponible" value="tarde">Tarde
+            <input type="radio" id="noche" name="disponible" value="noche">Noche<br>
+            <label>Sugerencias</label><br>
+            <textarea id="sug" name="sug" rows="5" cols="45" required placeholder="Danos una sugerencia"></textarea><br><br>
+            <input type="submit" value="Enviar" id="enviar" name="enviar">
+            <input type="reset" value="Borrar" id="borrar" name="borrar">
+        </fieldset>
+    </form>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.387586871567!2d-75.57619468523094!3d6.21250539550273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44282caa3e1a7f%3A0xa7761de36b2108fe!2sHalong%20Vietnamita!5e0!3m2!1ses-419!2sco!4v1656219968905!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+    <center><footer>
+        <p>&copy; 2022 por Danna Varela</p>
+    </footer></center>
+</body>
+</html>
