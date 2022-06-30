@@ -1,0 +1,66 @@
+body{
+   background-color: #ffffffc4;
+   color: #000000;
+}
+#navegador ul{
+   background-color: #ff4a4aab;
+   list-style-type: none;
+   text-align: center;
+   margin: 25px 50px 25px 50px; 
+}
+#navegador li{
+   display: inline;
+   text-align: center;
+   /* margin: 25px 50px 25px 50px;  */
+}
+#navegador li a {
+   padding: 25px 50px 25px 50px;
+   /* color: #666;
+   background-color: #eeeeee; */
+   /* border: 1px solid #ccc;  */
+   text-decoration: none;
+}
+#navegador li a:hover{
+   background-color: #ffffffc4;
+   color: #000000;
+}
+form{
+   text-align: justify;
+}
+body.ima{
+   background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/15/8b/cf/3c/halong-vietnamita.jpg);
+   background-repeat: no-repeat;
+   background-position: right bottom;
+   margin-right: 200px;
+   background-attachment: fixed;
+}
+table{
+   position: center;
+   text-align: center;
+   border-style: none;
+}
+
+div.galeria{
+   margin: 10px 20px;
+   box-shadow: 0px 4px 8px 0 #00f8f8b2;
+   float: left;
+   width: 350px;
+}
+div.galeria img{
+   width: 100%;
+   height: auto;
+}
+div.galeria:hover{
+   border: 1px solid #5900ff9a;
+   transform: rotate(2deg);
+}
+div.pie{
+   text-align: center;
+   padding: 10px;
+}
+/* h1.fondo{
+   background-color: #ff4a4aab;
+} */
+footer{
+   background-color: #ff4a4aab;
+}
